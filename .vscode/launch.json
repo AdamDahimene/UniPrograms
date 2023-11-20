@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WordSearch",
+            "request": "launch",
+            "mainClass": "Projects.WordSearch",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Forest_Game8",
+            "request": "launch",
+            "mainClass": "Forest_Game8",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Forest_Game7",
+            "request": "launch",
+            "mainClass": "Forest_Game7",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Forest_Game7",
+            "request": "launch",
+            "mainClass": "Mini_Projects.Forest_Game7",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Queues",
+            "request": "launch",
+            "mainClass": "RandomProjects.Queues",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Forest_Game6",
+            "request": "launch",
+            "mainClass": "Mini_Projects.Forest_Game6",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "TestRuns",
+            "request": "launch",
+            "mainClass": "RandomProjects.TestRuns",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "quicksort",
+            "request": "launch",
+            "mainClass": "RandomProjects.quicksort",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "RandomProjects.QuickSort",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort2",
+            "request": "launch",
+            "mainClass": "RandomProjects.bubble_sort2",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort1",
+            "request": "launch",
+            "mainClass": "RandomProjects.bubble_sort1",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSorted",
+            "request": "launch",
+            "mainClass": "RandomProjects.BubbleSorted",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "DisabilityRating",
+            "request": "launch",
+            "mainClass": "DisabilityRating",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "ElectionResults",
+            "request": "launch",
+            "mainClass": "ElectionResults",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "MidTerm",
+            "request": "launch",
+            "mainClass": "MidTerm",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Class",
+            "request": "launch",
+            "mainClass": "Mini_Projects.Class",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Class",
+            "request": "launch",
+            "mainClass": "Class",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "LapTimes",
+            "request": "launch",
+            "mainClass": "LapTimes",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Forest_Game",
+            "request": "launch",
+            "mainClass": "Mini_Projects.Forest_Game",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Module_Grade_Calculation",
+            "request": "launch",
+            "mainClass": "Module_Grade_Calculation",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "Pollution",
+            "request": "launch",
+            "mainClass": "Pollution",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "World_Cup_Stats",
+            "request": "launch",
+            "mainClass": "World_Cup_Stats",
+            "projectName": "UniPrograms_ecbea896"
+        },
+        {
+            "type": "java",
+            "name": "name",
+            "request": "launch",
+            "mainClass": "name",
+            "projectName": "UniPrograms_ecbea896"
+        }
+    ]
+}

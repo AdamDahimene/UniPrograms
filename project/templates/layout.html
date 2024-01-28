@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Calorie Tracker</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2D2926FF;">
+        <div class="container-fluid" style="width: 350px;">
+          <a class="navbar-brand" style="color: #b1de00;">Calorie Tracker</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              {% if session["user_id"] %}
+                <a class="nav-link ; a" style="color: #b1de00;" aria-current="page" href="/index">Index</a>
+                <a class="nav-link ; a" style="color: #b1de00;" href="/update">Update</a>
+                <a class="nav-link ; a" style="color: #acc864;" href="/logout">Logout</a>
+              {% else %}
+                <a class="nav-link ; a ; b" style="color: #acc864;" href="/register">Register</a>
+                <a class="nav-link ; a ; b" style="color: #acc864;" href="/login">Log In</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+      {% if get_flashed_messages() %}
+        <header>
+          <div class="alert alert-primary mb-0 text-center" role="alert">
+            {{ get_flashed_messages() | join(" ") }}
+          </div>
+        </header>
+      {% endif %}
+
+      <main class="container-fluid py-5 text-center">
+        {% block main %}{% endblock %}
+      </main>
+
+    </body>
+</html>

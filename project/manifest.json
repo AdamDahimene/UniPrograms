@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "anime",
+    "version": "1.0.0",
+    "content_script": [
+        {
+            "mathes": ["<all_urls>"],
+            "js": ["Content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "Popup.html",
+        "default_title": "anime"
+    }
+}

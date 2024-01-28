@@ -1,0 +1,23 @@
+body
+{
+    background-image: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.b
+{
+    align: right;
+}
+.a
+{
+    text-decoration: none;
+}
+.a:hover
+{
+    text-decoration: underline;
+}
+.h
+{
+    text-decoration: underline;
+}

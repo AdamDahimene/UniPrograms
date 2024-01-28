@@ -1,0 +1,21 @@
+body {
+    min-width: 500px; /* your desired width */
+    max-width: 100%;
+    min-height: 250px;
+    position: relative;
+    vertical-align:middle;
+    background-color: #0e0816;
+    border-radius: 10px;
+  }
+
+.title {
+    text-align: center;
+    font-weight: 90;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p {
+    color: #ffffff;
+}
+
